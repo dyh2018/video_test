@@ -56,6 +56,7 @@ public class LoginController  extends BasicController {
         //UUID.randomUUID().toString()是javaJDK提供的一个自动生成主键的方法,也就是生成唯一的字符串
         String uniqueToken=UUID.randomUUID().toString();
         //timeout单位为毫秒 1000*60*30=半小时
+        int time=0;
         //使用"："为了在最后redis管理软件显示清楚
         redisOperator.set(USER_REDIS_SESSION+":"+users.getId(),uniqueToken,1000*60*300);
         UsersVO usersVO=new UsersVO();
