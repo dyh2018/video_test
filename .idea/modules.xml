@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/python_learn/mybatis案例/尚硅谷Mapper/源码、笔记、资料/代码/Pro02MapperMBG/Pro02MapperMBG.iml" filepath="D:/python_learn/mybatis案例/尚硅谷Mapper/源码、笔记、资料/代码/Pro02MapperMBG/Pro02MapperMBG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pojo/pojo.iml" filepath="$PROJECT_DIR$/pojo/pojo.iml" />
+    </modules>
+  </component>
+</project>
